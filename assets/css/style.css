@@ -1,0 +1,92 @@
+body {
+    background-image: url(../images/spikes.png);
+    width: 80%;
+    margin: auto;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    padding-bottom: 30px;
+    font-size: 3em;
+    color: white;
+    margin-top: 30px;
+}
+header h1 {
+    display: inline;
+    background: orange;
+    padding: 20px;
+}
+#instructions {
+    background: antiquewhite;
+    color: green;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+#randomNumber {
+    width: 200px;
+    height: 90px;
+    background: mediumseagreen;
+    margin-bottom: 10px;
+    float: left;
+    color: maroon;
+
+}
+#randomNumber h1 {
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#winLoss {
+    background: aqua;
+    width: 150px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+}
+#winLoss p {
+    padding: 10px;
+}
+
+#crystals {
+    clear: both;
+}
+a {
+    margin-right: 10px;
+
+}
+
+#yourScoreIs {
+    background: lightseagreen;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+}
+#yourScoreIs p {
+    color: white;
+    padding: 10px;
+}
+
+#score {
+    width: 250px;
+    height: 90px;
+    background: lightseagreen;
+    margin-top: 10px;
+}
+#score h1 {
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    font-size: .75em;
+    margin-top: 20px;
+}
+footer a {
+    color: silver;
+    font-weight: normal;
+}
