@@ -9,16 +9,17 @@ var score = 0;
 var wins = 0;
 var losses = 0;
 
+
 $("#wins").html("<p>Wins: " + wins + "</p>")
 $("#losses").html("<p>Losses: " + losses + "</p>")
 
-// Functions:
 
+// Generate random number between 19-120:
 function random() {
     randomNum = Math.floor(Math.random() * (120 - 19) + 19);
     return randomNum;
 }
-
+// Assign value to crystals:
 function crystalReset() {
     function crystalVal() { 
         crystalNum = Math.floor((Math.random() * 12) + 1);
@@ -74,20 +75,8 @@ $("#green").on("click", function() {
     $("#score").html("<h1>" + score + "</h1>");
 })
 
-
-// Count wins and losses:
-
-if (score == randomNum) {
-    wins++;
-    $("#wins").html("<p>Wins: " + wins + "</p>")
-
-    random();
-    crystalReset();
-}
-if (score > randomNum) {
-    losses++;
-    $("#losses").html("<p>Losses: " + losses + "</p>")
-
-    random();
-    crystalReset();
-}
+if (score === randomNum) {
+    alert("Winner");
+};
+console.log("score:")
+console.log(score)
